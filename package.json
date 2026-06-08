@@ -1,0 +1,29 @@
+{
+  "name": "pro18",
+  "version": "1.0.0",
+  "description": "Student REST API using Express and MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "railway",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
